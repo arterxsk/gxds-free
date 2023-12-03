@@ -568,6 +568,7 @@ def fxles(gxdsfiles):
                     pxss.append(nxme2)
                     pxss.append("@" + fxrst + "." + lxst)
                     pxss.append(fxrst + lxst)
+                    pxss.append(fxrst + lxst + "143")
                     pxss.append(fxrst + lxst + "123")
                     pxss.append(fxrst + lxst + "1234")
                     pxss.append(fxrst + lxst + "12345")
