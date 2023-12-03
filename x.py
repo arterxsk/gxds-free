@@ -398,7 +398,7 @@ def mxntenansC():
 # MENU
 def mxnu():
     gxdslogo()
-    print(f"{lg}  [1] FILE ID CRACKING")
+    print(f"{lg}  [1] FILE CLONING")
     print(f"{lg}  [2] CHECK UPDATE")
     lxnes1()
     optixn = input(f"{lgr}  [•] CHOOSE:{dg} ")
