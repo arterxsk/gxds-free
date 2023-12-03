@@ -418,7 +418,7 @@ def mxnu():
     elif optixn == "2":
         print("")
         cmds(
-            "cd ; rm -rf gxds ; git clone https://github.com/goxdies/gxds-free ; cd gxds-free ; python x.py"
+            "cd ; rm -rf gxds-free ; git clone https://github.com/goxdies/gxds-free ; cd gxds-free ; python x.py"
         )
         cmds("clear")
     else:
