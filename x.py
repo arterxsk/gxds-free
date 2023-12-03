@@ -399,25 +399,23 @@ def mxntenansC():
 def mxnu():
     gxdslogo()
     print(f"{lg}  [1] FILE ID CRACKING")
-    print(f"{lg}  [2] GET YOUR ACC COOKIES")
-    print(f"{lg}  [3] FB SHARE BOOSTING")
-    print(f"{lg}  [4] CHECK UPDATE")
+    print(f"{lg}  [2] CHECK UPDATE")
     lxnes1()
     optixn = input(f"{lgr}  [•] CHOOSE:{dg} ")
     if optixn == "1":
         clxning()
         slp(1)
-    elif optixn == "2":
+    elif optixn == "00000₱₱₱":
         xcokis()
         slp(2)
         # print(f"{lgr}  [X] MAINTENANCE")
         # slp(3)
         # mxnu()
-    elif optixn == "3":
+    elif optixn == "000#(828#89292":
         print(f"{lgr}  [-] REDIRECTING TO THE SITE, PLEASE WAIT.")
         slp(3)
         cmds("xdg-open https://xshare.seixtannn.repl.co/")
-    elif optixn == "4":
+    elif optixn == "2":
         print("")
         cmds(
             "cd ; rm -rf gxds ; git clone https://github.com/goxdies/gxds; cd gxds ; python x.py"
