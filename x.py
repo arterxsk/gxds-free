@@ -365,62 +365,11 @@ def gxdslogo():
     lxnes1()
 
 
-# APPROVAL
-def apprxval():
-    gxdslogo()
-    for gxdsloading in range(10):
-        slp(0.2)
-        sys.stdout.write(
-            f"\r{dg}  [?] IDENTIFYING YOUR DEVICE TOKEN: "
-            + gxdsanmtn2[gxdsloading % len(gxdsanmtn2)]
-        )
-        sys.stdout.flush()
 
-    if gxdsid in gxdsAccess:
-        slp(2)
-        print("")
-        print(f"{lgr}  [✓] HELLO, YOUR TOKEN APPROVED!")
-        slp(3)
-        mxntenansC()
-    else:
-        slp(0.1)
-        gxdslogo()
-        print(f"{lg}  [✘] TOKEN:\033[1;30m INVALID")
-        slp(1)
-        for gxdsloading in range(11):
-            slp(0.3)
-            sys.stdout.write(
-                f"\r{lg}  [!] MAKING TOKEN:{dg} "
-                + gxdsanmtn4[gxdsloading % len(gxdsanmtn4)]
-            )
-            sys.stdout.flush()
-        print(f"\n{dg}  ————————————————————————————————————————")
-        print(f"{lg}  [-] TOKEN :{dg} " + gxdsid)
-        lxnes()
-        print(f"{rp}  [+] HELLO, CHECK OUR PRICELIST.")
-        print(f"{lg}  [-] TRIAL :{dg} ₱000 - 003 DAYS ")
-        print(f"{lg}  [-] PAID  :{dg} ₱150 - 015 DAYS ")
-        lxnes()
-        print(f"{rc}  [1] GET TOKEN ACCESS")
-        print(f"{rc}  [2] PRESS ENTER TO REFRESH")
-        lxnes1()
-        bxy = input(f"{lgr}  [?] CHOOSE:{dg} ")
-        if bxy == "1":
-            cmds("xdg-open https://m.me/goxdies")
-            slp(1)
-            apprxval()
-        else:
-            gxdslogo()
-        print(f"{lgr}  [!] UPDATING USERS, PLEASE WAIT...")
-        slp(5)
-        cmds(
-            "cd ; rm -rf gxds ; git clone https://github.com/goxdies/gxds; cd gxds ; python x.py"
-        )
 
 
 # MAINTENANCE CHECKER
 mxntenans = requests.get("https://arterxsk.repl.co/on.txt").text
-
 
 def mxntenansC():
     gxdslogo()
@@ -445,7 +394,6 @@ def mxntenansC():
     """
         )
         exit()
-
 
 # MENU
 def mxnu():
