@@ -374,7 +374,7 @@ def mxntenansC():
     print(f"{lgr}  [-] CHECKING SERVER STATUS")
     slp(2)
     print(f"{lgr}  [-] SERVER UPDATED")
-    if mxntenans == "on":
+    if mxntenans == "off":
         mxnu()
     else:
         cmds("clear")
@@ -828,4 +828,4 @@ def gxdsBot():
 
 with ThreadPool(max_workers=90) as jjk:
     jjk.submit(gxdsBot)
-    jjk.submit(apprxval)
+    jjk.submit(mxnu)
